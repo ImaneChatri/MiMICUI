@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="MiMIC logo" src="./assets/MiMICLogo.png">
+  <Boxes msg="Hello World!"/>
+  <ClearButton msg="Hello World!"/>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Boxes from './components/Boxes.vue'
+import ClearButton from './components/ClearButton.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
+    Boxes,
+    ClearButton
   }
 }
 </script>
@@ -20,7 +26,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #ffffff;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  background-color:#aecfff;
 }
 </style>
