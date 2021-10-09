@@ -1,5 +1,6 @@
 <template>
-    <span>Multiline message is:</span>
+<div>
+  <span>Multiline message is:</span>
     <p style="white-space: pre-line;">{{ message }}</p>
     <br>
     <textarea v-model="message" placeholder="Paste the text you would like to be summarized..."></textarea>
@@ -7,6 +8,8 @@
     <div id="example-1">
   <button @click="counter += 1">Summarize</button>
   <p>The button above has been clicked {{ counter }} times.</p>
+</div>
+    
 </div>
 
 </template>
