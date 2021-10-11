@@ -1,49 +1,81 @@
 <template>
-<div>
-  
-  
-  <h1>import check</h1>
-  <div class="tile is-ancestor">
-  <div class="tile is-vertical is-8">
+  <div>
     <div class="tile">
-    </div>
-    <div class="tile is-parent">
-      <article class="tile is-child notification is-danger">
-        <p class="title">Wide tile</p>
-        <p class="subtitle">Aligned with the right tile</p>
-        <div class="content">
-          <Boxes msg="Hello World!"/>
-        </div>
-      </article>
-    </div>
-  </div>
-  <div class="tile is-parent">
-    <article class="tile is-child notification is-success">
-      <div class="content">
-        <p class="title">Tall tile</p>
-        <p class="subtitle">With even more content</p>
-        <div class="content">
-          <ClearButton msg="Hello World!"/>
-        </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-danger">
+          <textarea
+            class="textarea"
+            placeholder="Input your text here"
+            rows="13"
+          v-model="Input"></textarea>
+          <br />
+          <div class="buttons are-normal is-centered">
+            <button class="button" @click="NumSentences = '1'">
+              1
+            </button>
+            <button class="button" @click="NumSentences = '3'">
+              3
+            </button>
+            <button class="button" @click="NumSentences = '5'">
+              5
+            </button>
+            <button class="button" @click="NumSentences = '10'">
+              10
+            </button>
+            <button class="button" @click="NumSentences = '20'">
+              20
+            </button>
+          </div>
+        </article>
       </div>
-    </article>
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-primary">
+          <div class="field is-grouped">
+            <p class="control">
+              <button class="button is-medium" @click="summarize()">
+                Summarize
+              </button>
+            </p>
+            <p class="control">
+              <button class="button is-medium">
+                Clear
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="tile is-child notification is-warning">
+          <article class="message">
+            <div class="message-body">
+              {{ Output }}
+            </div>
+          </article>
+        </article>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </template>
 
 <script>
-import Boxes from './Boxes.vue'
-import ClearButton from './ClearButton.vue'
-
 export default {
-  name: 'Summarize',
-  components: {
-    Boxes,
-    ClearButton
+  name: "Summarize",
+  data() {
+    return {
+      NumSentence: "",
+      Input: "",
+      Output:
+        "Your summarized text will appear here.",
+    };
+  },
+  methods: {
+    summarize() {
+      this.Output = this.Input;
+    },
+    Clear() {
+      this.Input = '';
+      this.Output = '';
+    }
   }
-}
+};
 </script>
 
-<style>
-</style>
+<style></style>
