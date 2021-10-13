@@ -1,5 +1,13 @@
 <template>
-<h2>Hello, this is Algorithm speaking, checking import.</h2>
+<div class="tile is-parent">
+      <article class="tile is-child notification is-danger">
+        <p class="title">Wide tile</p>
+        <p class="subtitle">Aligned with the right tile</p>
+        <div class="content">
+          <!-- Content -->
+        </div>
+      </article>
+    </div>
 </template>
 
 
