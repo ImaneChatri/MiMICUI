@@ -2,20 +2,20 @@
 <div class="tile is-ancestor">
   <div class="tile is-4 is-vertical is-parent">
     <div class="tile is-child box">
-      <p class="title">One</p>
+      <p class="title">Charles Zhang '23</p>
+      <p> Mathematics and Computer Science Major</p>
+    </div>
+    <div class="tile is-child box">
+      <p class="title">Imane Chatri</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
     </div>
     <div class="tile is-child box">
-      <p class="title">Two</p>
+      <p class="title">Matthew Wilkinson</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
     </div>
     <div class="tile is-child box">
-      <p class="title">Two</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-    </div>
-    <div class="tile is-child box">
-      <p class="title">Two</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      <p class="title">Melody Arteaga '23</p>
+      <p>Mathematics and Computer Science Major</p>
     </div>
   </div>
   <div class="tile is-parent">
