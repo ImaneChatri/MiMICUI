@@ -4,6 +4,9 @@
     <div class="tile is-child box">
       <p class="title">Charles Zhang '23</p>
       <p> Mathematics and Computer Science Major</p>
+      <figure class="image is-128x128">
+  <img src="https://github.com/zcczhang/zcczhang.github.io/blob/master/images/profile.png?raw=true">
+</figure>
     </div>
     <div class="tile is-child box">
       <p class="title">Imane Chatri</p>
