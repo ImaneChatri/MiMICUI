@@ -19,6 +19,9 @@
     <div class="tile is-child box">
       <p class="title">Melody Arteaga '23</p>
       <p>Mathematics and Computer Science Major</p>
+      <figure class="image is-128x128">
+  <img src=".assets/MelodyPic.jpg">
+</figure>
     </div>
   </div>
   <div class="tile is-parent">
