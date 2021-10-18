@@ -76,10 +76,9 @@ export default {
   },  
   data() {
     return {
-
     SelectedTab : 'Summarize'
     }
-  },
+  }
 };
 </script>
 
