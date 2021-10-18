@@ -86,14 +86,14 @@ export default {
           `http://127.0.0.1:5000/summarize`,
           { text: this.Input },
           {
-            headers: {
-              "Access-Control-Allow-Origin": "*",
-              "Content-Type": "application/json",
-            },
+            // headers: {
+            //   "Access-Control-Allow-Origin": "*",
+            //   "Content-Type": "application/json",
+            // },
           }
         )
         .then((response) => {
-          this.Output = response.data;
+          this.Output = response.data.summarizedText;
         })
         .catch((e) => {
           this.errors.push(e);
