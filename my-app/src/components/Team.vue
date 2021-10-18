@@ -19,17 +19,15 @@
     <div class="tile is-child box">
       <p class="title">Melody Arteaga '23</p>
       <p>Mathematics and Computer Science Major</p>
-      <figure class="image is-128x128">
-  <img src=".assets/MelodyPic.jpg">
-</figure>
+      <!-- <figure class="image is-128x128">
+  <img src="./assets/MelodyPic.jpg">
+</figure> *not working-->
     </div>
   </div>
   <div class="tile is-parent">
     <div class="tile is-child box">
-      <p class="title">Three</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-      <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-      <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+      <p class="title">	COMP 225 Software Design and Development</p>
+      <p>This course is an introduction to the problem of building software with humans and for humans. Students work in teams to design and implement a semester-long user-facing software project of their own invention. There are no limitations on topic or technology; on the contrary, students are responsible for imagining possibilities, articulating goals, and researching and selecting suitable technologies. The format resembles a studio art class, with in-class discussion guided by sharing and critiquing classmates' ongoing work. Topics include communication, division of labor, user-centered design, human-computer interaction, product management, project management, iterative development, engineering tradeoffs, separation of concerns, code readability and maintainability, refactoring, testing, and version control. Teams give a public demonstration of their working projects at the end of the semester. Prerequisite(s): COMP 127 (COMP 128 recommended), or COMP 124 if previously taken, or permission of instructor.</p>
     </div>
   </div>
 </div>
