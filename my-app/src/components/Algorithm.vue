@@ -2,7 +2,7 @@
 <div class="tile is-parent">
       <article class="tile is-child notification is-danger">
         <p class="title">Our Algorithm</p>
-        <p class="subtitle">*explanation of how the algorithm work (using the table below to explain)*</p>
+        <p class="subtitle">*explanation of how the algorithm works (using the table below to explain)*</p>
         <div class="content">
            <!-- Content -->
           <table class="table">

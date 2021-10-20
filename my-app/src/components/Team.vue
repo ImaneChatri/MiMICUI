@@ -47,14 +47,14 @@
       <div class="card-image has-text-centered">
         <div class="columns">
       <figure class="image is-128x128 is-inline-block">
-          <div class="column is-12">
+          <div class="column is-13">
   <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjy0sNhJ16_zp-zJNJl6sSuYAn40Dw4LTIbDU_Kepw-hICdf5GZwKAFwVqVjQSAj80v9g7yTHMe0lLXJrO9RfQGmSSIe-CD_sV8Gxbty_REnFnEnVXAj4kdQmPO2veIqeIFGVZ9WyZjG2WlkmeuBdyu0F4c9NG-6tpmCMhVqCXDU5vlIXMi67WVnz_d=s320">
 </div>
 </figure> 
-<div class="column is-7 ">
+<div class="column is-8 ">
   <div class="myHero hero-right">
         <div class="hr"></div>
-        <h1>Linguistics Major</h1>
+        <h1> Linguistics and Anthropology Major</h1>
 </div>
 </div>
 </div>
@@ -86,10 +86,11 @@
     <div class="tile is-child panel is-warning">
       <p class="panel-heading">	ABOUT THE PROJECT</p>
       <div class="panel-block">
-        <p> MORE TO COME.... </p>
-      <!-- <p>This website was made for our computer science class, Software Design and Development. As liberal arts college students, we decided
-        to create a project that would summarize text. We figured that this could be a solution to the endless readings given to us.
-        </p> -->
+        <!-- <p> MORE TO COME.... </p> -->
+      <p>This website was made for our computer science class, Software Design and Development. As liberal arts college students, we
+        often find ourselves with lots of papers to read. This can often feel overwhelming. Our solution to this problem was to create a project
+        that would summarize any text. Check out the algorithm tab to learn how we implmented prexsisting algorithms to create MiMIC! 
+        </p>
     </div>
     </div>
   </div>
