@@ -72,7 +72,7 @@ export default {
     summarize() {
       axios
         .post(
-          `http://127.0.0.1:5000/summarize`,
+          process.env.VUE_APP_SERVER_URL + '/summarize',
           { text: this.Input }
         )
         .then((response) => {
