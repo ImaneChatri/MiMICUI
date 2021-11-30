@@ -22,7 +22,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "vue-gh-pages": "^1.19.1"
   },
-  "homepage": "https://github.com/ImaneChatri/MiMICUI",
+  "homepage": "https://github.com/meloarteaga/MiMICUI",
   "eslintConfig": {
     "root": true,
     "env": {
