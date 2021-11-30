@@ -1,29 +1,6 @@
 <template>
   <div>
     <section class="hero is-info">
-      <!-- <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-          <a class="navbar-item">
-            <img alt="MiMIC logo" src="./assets/Smaller-MiMIC-Logo.png" />
-          </a>
-        </div>
-            <div id="navbarMenuHeroB" class="navbar-menu">
-              <div class="navbar-end">
-                <span class="navbar-item">
-                  <a class="button is-info is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Github Repo</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div> -->
 
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -58,6 +35,9 @@
         <Algorithm v-if="SelectedTab === 'Algorithm'"/>
         <Team v-if="SelectedTab === 'Team'"/>
       </div>
+    </section>
+    <section>
+      put a footer right here
     </section>
   </div>
 </template>
