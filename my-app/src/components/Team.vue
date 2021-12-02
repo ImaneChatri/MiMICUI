@@ -48,7 +48,7 @@
         <div class="columns">
       <figure class="image is-128x128 is-inline-block">
           <div class="column is-13">
-  <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjy0sNhJ16_zp-zJNJl6sSuYAn40Dw4LTIbDU_Kepw-hICdf5GZwKAFwVqVjQSAj80v9g7yTHMe0lLXJrO9RfQGmSSIe-CD_sV8Gxbty_REnFnEnVXAj4kdQmPO2veIqeIFGVZ9WyZjG2WlkmeuBdyu0F4c9NG-6tpmCMhVqCXDU5vlIXMi67WVnz_d=s320">
+  <img src="https://blogger.googleusercontent.com/img/a/AVvXsEguh_DemSshbvA4huR6qQnzDjzWHeCu6CUyoW25xU8Lxe8d6HRgpEZKbX0Z_wFTdYLwDN0u6oOWEo78hlYapMrbwS_ZHqMXMBiVwEkc6-uARK5vowRggsDpkk6XnjRdFHw4eEzXt_sCC7rfvGDqHJiebIYISC7RFs0DcOWNxoQxQtGqnzQGM4CUkw8q=s320">
 </div>
 </figure> 
 <div class="column is-8 ">
