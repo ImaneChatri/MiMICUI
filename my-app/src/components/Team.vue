@@ -92,6 +92,9 @@
         that would summarize any text. Check out the algorithm tab to learn how we implmented prexsisting algorithms to create MiMIC! 
         </p>
     </div>
+    <div class="buttons are-medium is-centered">
+  <button class="button is-warning" onclick="window.location.href='https://forms.gle/xTySawwH6Dy2FgDK7';">FEEDBACK</button>
+</div>
     </div>
   </div>
 </div>
