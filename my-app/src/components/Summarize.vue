@@ -47,7 +47,7 @@ export default {
   methods: {
     summarize() {
       axios
-        .post(process.env.VUE_APP_SERVER_URL + "/summarize", {
+        .post(process.env.VUE_APP_SERVER_URL + "summarize", {
           text: this.Input,
         })
         .then((response) => {
