@@ -2,7 +2,7 @@
 <div class="tile is-parent">
       <article class="tile is-child notification is-danger">
         <p class="title">Our Algorithm</p>
-        <p class="subtitle">*explanation of how the algorithm works (using the table below to explain)*</p>
+        <p class="subtitle">Below is an explantation of how the algorithm used in this app works.</p>
         <div class="content">
            <!-- Content -->
           <table class="table">
@@ -42,7 +42,7 @@
     </tr>
     <tr>
       <th>summarize: </th>
-      <td>chooses top X  ranked sentences (X input by user), orders them chronologically as in the input text, puts a line break between each, and returns the summarized paragraph</td>
+      <td>chooses top 5  ranked sentences, orders them chronologically as in the input text, puts a line break between each, and returns the summarized paragraph</td>
     </tr>
   </tbody>
 </table>
