@@ -6,7 +6,7 @@
         <div class="container has-text-centered">
           <img alt="MiMIC logo" src="./assets/Smaller-MiMIC-Logo.png" />
           <p class="subtitle">
-            Smmarize Something
+            Summarize Something
           </p>
         </div>
       </div>
