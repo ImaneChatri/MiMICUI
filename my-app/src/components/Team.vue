@@ -86,7 +86,6 @@
     <div class="tile is-child panel is-warning">
       <p class="panel-heading">	ABOUT THE PROJECT</p>
       <div class="panel-block">
-        <!-- <p> MORE TO COME.... </p> -->
       <p>This website was made for our computer science class, Software Design and Development. As liberal arts college students, we
         often find ourselves overwhelmed with lots of papers to read. Our solution to this problem was to create a project
         that would summarize any text. Check out the algorithm tab to learn how we implmented prexsisting algorithms to create MiMIC! <br>
