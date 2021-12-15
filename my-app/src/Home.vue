@@ -10,8 +10,6 @@
           </p>
         </div>
       </div>
-
-      <div class="hero-foot">
         <nav class="tabs is-boxed is-fullwidth">
           <div class="container">
             <ul>
@@ -27,7 +25,6 @@
             </ul>
           </div>
         </nav>
-      </div>
     </section>
     <section>
       <div>
@@ -35,9 +32,6 @@
         <Algorithm v-if="SelectedTab === 'Algorithm'"/>
         <Team v-if="SelectedTab === 'Team'"/>
       </div>
-    </section>
-    <section>
-      put a footer right here
     </section>
   </div>
 </template>
